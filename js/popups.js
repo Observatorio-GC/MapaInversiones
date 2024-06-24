@@ -38,7 +38,7 @@
 
     function agregarPopuplote(feature, layer) {
         if (feature.properties && feature.properties.padron) {
-            layer.bindPopup("Padron: <strong>" + feature.properties.padron + "</strong><br><img src='img/inversiones/" + feature.properties.Fotos 
+            layer.bindPopup("'<a href=https://drive.google.com/file/d/1djzrXTaf7pTOcb94NK_0SUBNeM8UHwtn/view?usp=sharing + target='_blank'>Ficha PDF</a>'"+"<img src='img/inversiones/" + feature.properties.Fotos 
                 + "' height='520px' width='310px' style='display:block; margin: auto; margin-top:7px;' />");
         }
     }
